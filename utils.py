@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 13 19:03:38 2020
-
-@author: ukaan
-"""
 
 import torch
 import torch.nn as nn
@@ -450,5 +444,6 @@ def update_prox(last_iter, device, m, model_p, lambda_p, centers, n, lr1, lr2, l
             centers.copy_(centers_sorted)
 
         return no_of_members
+
 
 
